@@ -1,66 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR - Scanning</title>
-    <style>
-       *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-       }
-        .container{
-            width: 100vw;
-            height: 100vh;
-            background-color:  hsl(212, 45%, 89%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .card{
-            width: 250px;
-            height: 450px;
-            background-color:white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border-radius: 10px;
-        }
-        #img1{
-            width: 230px;
-            height: 250px;
-            position: relative;
-            top: -30px;
-            border-radius: 10px;
-        }
-        #p1{
-            font-size: 17px;
-            font-weight: 700;
-            text-align:center;
-            font-family: 'outfit';
-            margin: 5px;
-        }
-        #p2{
-            font-size: 14px;
-            font-weight: 400;
-            text-align:center;
-            margin: 12px;
-            color: hsl(216, 15%, 48%);
-        }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-<div class="container">
-    <div class="card">
-            
-        <img src="image-qr-code.png" alt="image" id="img1">
-        <p id="p1">Improve your front-end skills by building projects</p>
-        <p id="p2">Scan the QR code to visit the Frontend Mentor and take your coding skills to the Next Level</p>
-
-    </div>
-</div>
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"/>
+  </head>
+  <body>
+    <main class="container">
+      <div class="card">
+        <img
+          src="image-qr-code.png"
+          alt="QR code to link Frontend Mentor"
+          class="img1"
+        />
+        <h2 class="title">
+          Improve your front-end skills by building projects
+        </h2>
+        <p class="description">
+          Scan the QR code to visit the Frontend Mentor and take your coding
+          skills to the Next Level
+        </p>
+      </div>
+    </main>
+  </body>
 </html>
